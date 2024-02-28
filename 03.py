@@ -12,7 +12,7 @@ class Grid(GridLayout):
     def __init__(self, **kwagrs):
         super(Grid, self).__init__(**kwagrs)
         
-        # Number of Coloums in the Grid Layout of the Application
+        # Number of Columns in the Grid Layout of the Application
         self.cols = 1
         
         # Creating a Inherited Grid for the Input Boxes Layout
